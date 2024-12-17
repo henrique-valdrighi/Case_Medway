@@ -1,24 +1,10 @@
-### Projeto Medway
+### Projeto Medway - Henrique Valdrighi Paes
 
-Aqui nesse repositório temos um projeto Django básico, já configurado para uso.
+Nesse repositório se encontra o projeto Django desenvolvido para trazer as duas funcionalidades requeridas:
+  1) Responder a prova
+      A partir da url http://0.0.0.0:8000/exam/ é possível visualizar todas as provas disponíveis. Ao clicar na prova desejada, o usuário será redirecionado para outra página, na qual pode verificar as questões, suas respectivas alternativas e enviar a prova preenchida.
+  
+  2) Validar resultados
+     A partir do envio das respostas (clique no botão) mencionado acima, o usuário é redirecionado para a página de resultados, onde está disposto todas as questões, as alternativas escolhidas e se houve acerto ou erro em cada escolha, bem como a nota final.
 
-Para rodar o projeto, deve-se ter o docker e ligado instalado no computador.
-
-Para configurár o projeto, pode-se rodar o comando:
-
-`docker compose up --build`.
-
-Isso deve inicializá-lo na porta 8000.
-
-Ele já vai vir com alguns modelos, alguns inclusives já populados com dados de teste, 
-para facilitar o desenvolvimento.
-
-Com o projeto rodando, para acessar o container do docker, pode-se abrir outro terminal e rodar:
-
-`docker exec -it medway-api bash`
-
-Uma vez dentro do container, pode-se criar um usuário/estudante com o comando:
-
-`python manage.py createsuperuser`
-
-E utilizar essas credenciais para acessar o admin em http://0.0.0.0:8000/admin/.
+Qualquer dúvida, sigo à disposição.
